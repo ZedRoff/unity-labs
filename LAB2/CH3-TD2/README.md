@@ -302,4 +302,64 @@ Concevez et implémentez une version améliorée du bruit de Perlin pour la gén
 terrain dans Unity. Quelles optimisations avez-vous apportées pour améliorer la performance
 et la qualité visuelle du terrain généré ?
 
-/
+En étudiant les recherches sur ce site [Lien](https://www.cochoy.fr/pdfs/perlin-noise/perlin_noise.pdf), ce papier de recherche nous informe sur le fait que jouer sur les octaves peut être intéressant dans le cadre du bruit de perlin. En effet, il ajoute le principe de persistence, qui est un nombre compris entre 0 et 1 et qui a pour but de diminué l'amplitude à chaque octave traversée.
+
+Dans le code de perlin de base, on y ajouterait le principe d'octaves : 
+```c#
+
+using UnityEngine;
+
+public class MakeTerrain4 : MonoBehaviour
+{
+    public float baseFrequency = 2f;
+    public float baseAmplitude = 5f;
+    public int octaves = 4;
+    public float persistence = 0.5f; // réduit l'amplitude pour les octaves supérieures
+    public float lacunarity = 2f;    // augmente la fréquence pour les octaves supérieures
+
+    private Perlin surface;
+    private Mesh mesh;
+
+    void Awake()
+    {
+        surface = new Perlin();
+        mesh = this.
+        GetComponent<MeshFilter>().mesh;
+        GenerateTerrain();
+    }
+
+    public void GenerateTerrain()
+    {
+        Vector3[] vertices = mesh.vertices;
+
+        for (int i = 0; i < vertices.Length; i++)
+        {
+            float y = 0f;
+            float frequency = baseFrequency;
+            float amplitude = baseAmplitude;
+
+            // Boucle sur les octaves pour créer un terrain fractal
+            for (int o = 0; o < octaves; o++)
+            {
+              
+
+                y += surface.Noise(vertices[i].x * frequency, vertices[i].z * frequency) * amplitude;
+
+                amplitude *= persistence; // diminue l’amplitude
+                frequency *= lacunarity;  // augmente la fréquence
+            }
+
+            vertices[i].y = y;
+        }
+
+        mesh.vertices = vertices;
+        mesh.RecalculateBounds();
+        mesh.RecalculateNormals();
+
+        // Mise à jour du MeshCollider
+        MeshCollider collider = GetComponent<MeshCollider>();
+        collider.sharedMesh = mesh;
+    }
+}
+```
+Ici, on augmente la fréquence et on diminue l'amplitude à chaque octave, ce qui permet de donner un résultat plus lisse (progressif, car en octaves). Dans notre exemple, nous avons 4 octaves.
