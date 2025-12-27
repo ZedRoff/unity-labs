@@ -117,10 +117,6 @@ Le rayon lumineux entre sur une densité dS, il est atténué et arrive jusqu'au
 
 C'est important pour l'immersion et le réalisme de l'environnement de jeu car cela améliore le réalisme visuel, ajoute un certain traitement à la lumière, créé l'atmosphère, ajoute de la profondeur, et fait réagir l'environnement.
 
-#### Implémentez un système dans Unity où les nuages volumétriques changent d'apparence en fonction de l'heure du jour, en réagissant à la position et à la couleur de la lumière solaire. Quelles techniques utiliseriez-vous pour réaliser cela ?
-
-/
-
 ### Effets météorologiques dynamiques
 
 #### Quel rôle les nuages volumétriques jouent-ils dans la simulation d'effets météorologiques dynamiques dans les jeux vidéo ? Comment peuvent-ils améliorer l'expérience du joueur ?
@@ -133,14 +129,11 @@ Pour la météo :
 - Pluie : nuages sombres, grisatres
 - Neige : nuages blancs, bas et froids
 
-#### Concevez un système météorologique dynamique basique dans Unity où les nuages volumétriques évoluent en fonction des conditions météorologiques changeantes. Comment assureriez-vous la transition fluide entre différents types de temps 
-
-/
-
 ### Art et direction visuelle
 
 #### En termes d'art et de direction visuelle, comment les nuages volumétriques peuvent-ils être utilisés pour soutenir la narration ou l'atmosphère d'un jeu vidéo ?
 
 Un jeu comme Minecraft prend un atmosphère clair, pour les moments de visibilité. La nuit signifie que des monstres vont apparaître, le joueur adapte son gameplay en fonction du temps qu'il fait. 
+
 
 Des nuages déchirés avec des rayons de lumière peuvent par exemple simulé l'espoir, la révélation ou bien la renaissance.
