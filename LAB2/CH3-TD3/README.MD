@@ -253,10 +253,10 @@ Sans règles supplémentaires, les villes peuvent sembler chaotiques.
 Contrairement à une génération totalement aléatoire, cette approche vise à produire des quartiers structurés, lisibles et cohérents, similaires à des zones pavillonnaires réelles.
 
 Le réalisme repose sur trois principes fondamentaux :
-###Bruit de basse fréquence pour définir des zones
+### Bruit de basse fréquence pour définir des zones
 La génération s’effectue sur une grille régulière, ce qui permet d’obtenir des zones homogènes et organisées, évitant une disposition chaotique des bâtiments.
 
-###Limitation de hauteur
+### Limitation de hauteur
 Seuls des bâtiments résidentiels de taille modérée sont utilisés, garantissant une cohérence architecturale propre aux quartiers d’habitation.
 
 ### Espacement régulier et présence de rues
