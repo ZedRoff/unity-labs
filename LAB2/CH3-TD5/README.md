@@ -185,9 +185,6 @@ Interpolation avec Lerp, fonctions sinus pour avec un cycle (la fonction a un cy
 
 Le principal objectif d’un skydome est de créer un ciel ou environnement distant immersif qui encadre la scène de jeu. Il permet de donner une profondeur visuelle, de renforcer l’atmosphère et de simuler des cycles jour/nuit ou des conditions météorologiques. Cela contribue à l’expérience du joueur en rendant le monde plus crédible, en guidant l’émotion et en renforçant l’immersion dans l’univers du jeu.
 
-#### Concevez un système dans Unity où le skydome reflète la progression narrative du jeu ou les actions du joueur. Comment vous assurer que ce système s'intègre bien à plusieurs missions et cartes du jeu ?
-
-/
 
 ### Avantages et inconvénients des skydomes
 
@@ -195,9 +192,7 @@ Le principal objectif d’un skydome est de créer un ciel ou environnement dist
 
 Les skydomes créent un ciel immersif et cohérent, renforçant le réalisme et l’ambiance du jeu. Ils permettent de simuler facilement le jour, la nuit et la météo avec des textures et shaders, tout en restant peu gourmands en performance. Mais ils sont souvent statiques, limitant les changements rapides ou les grandes cartes, et la lumière qu’ils génèrent est approximative. Pour de vastes environnements ou des effets atmosphériques dynamiques comme tempêtes ou brume, une skybox ou un shader procédural peut être plus adapté.
 
-#### Proposez une solution dans Unity pour surmonter l'un des principaux inconvénients des skydômes que vous avez identifiés. Comment cette solution pourrait-elle être mise en œuvre dans un jeu comportant de vastes environnements extérieurs ?
 
-/
 
 ### Intégration des skydomes dans les jeux à missions et cartes multiples
 
@@ -206,6 +201,3 @@ Les skydomes créent un ciel immersif et cohérent, renforçant le réalisme et 
 La conception et la fonctionnalité d’un skydome permettent de renforcer les éléments thématiques d’un jeu en adaptant la couleur, la luminosité et les effets atmosphériques à chaque mission ou carte, créant ainsi une ambiance cohérente et immersive qui soutient la narration et l’expérience du joueur.
 
 
-#### Décrivez une approche pour changer dynamiquement l'apparence et les effets du skydome dans Unity en fonction de l'emplacement du joueur dans le monde du jeu ou de l'accomplissement de missions spécifiques. Quelles sont les considérations nécessaires pour maintenir les performances et la cohérence dans des environnements variés ?
-
-/
