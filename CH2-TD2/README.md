@@ -74,7 +74,7 @@ Ce script, appliqué à un plan, permet de générer dynamiquement une **texture
 * `pix` : tableau de pixels stockant les couleurs
 
 ### Capture d’écran
-
+![alt text](image.png)
 
 ### Fonctionnement du code
 
@@ -97,7 +97,7 @@ Ce script, appliqué à un plan, permet de générer dynamiquement une **texture
    * Validation avec `Apply()`
 
 ### Capture d’écran
-
+![alt text](image-2.png)
 
 ---
 
@@ -132,6 +132,7 @@ Ce script, appliuqé à une sphère utilise le bruit de Perlin 2D comme un **bru
 * `xScale` : vitesse de déplacement dans le plan de Perlin
 
 ### Capture d’écran
+![alt text](image-1.png)
 
 ### Fonctionnement du code
 
@@ -144,7 +145,7 @@ Ce script, appliuqé à une sphère utilise le bruit de Perlin 2D comme un **bru
 ### Animation
 
 
-
+![alt text](video.mp4)
 ---
 
 ## Conclusion
