@@ -143,9 +143,8 @@ Ce script, appliuqé à une sphère utilise le bruit de Perlin 2D comme un **bru
   * La valeur du bruit est utilisée pour définir la position Y de l’objet
 
 ### Animation
-
-
-![alt text](video.mp4)
+(Cliquez sur la vidéo pour la télécharger afin de la visionner)
+[![Aperçu de la vidéo](preview.png)](video.mp4)
 ---
 
 ## Conclusion
