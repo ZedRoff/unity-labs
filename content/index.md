@@ -22,9 +22,9 @@ Vous trouverez dans ce site :
         - Des captures d'écrans de nos scènes.
         - Des explications détaillées.
 
-**Contributeurs** : 
-- Justine HAKIM
-- Aman GHAZANFAR
+**Contributeurs (Authorship)** : 
+- Justine, HAKIM, [CH2/TD2, CH3/TD3, CH3/TD4]
+- Aman, GHAZANFAR, [CH3/TD1, CH3/TD2, CH3/TD5, CH3/TD6]
 
 ## Projet Omoiyari
 
