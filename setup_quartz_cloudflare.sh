@@ -5,7 +5,7 @@ set -euo pipefail
 # Use current directory as the site directory (where the script is run from)
 export SITE_DIR="${SITE_DIR:-$(pwd)}"
 export ROOT="${ROOT:-$(dirname "$SITE_DIR")}"
-export DEVOPS_CONTENT_DIR="${DEVOPS_CONTENT_DIR:-$ROOT/devops/}"  # markdown/static content for devops track
+export DEVOPS_CONTENT_DIR="${DEVOPS_CONTENT_DIR:-$ROOT/unity-labs/}"  # markdown/static content for devops track
 export UPM_CONTENT_DIR="${UPM_CONTENT_DIR:-$ROOT/upm}"        # markdown/static content for upm track
 
 # Optional: load Cloudflare/GitHub secrets from .env-style files (kept out of git)

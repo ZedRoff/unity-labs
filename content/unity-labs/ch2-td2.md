@@ -74,7 +74,7 @@ Ce script, appliqué à un plan, permet de générer dynamiquement une **texture
 * `pix` : tableau de pixels stockant les couleurs
 
 ### Capture d’écran
-![alt text](image.png)
+![alt text](CH2-TD2/image.png)
 
 ### Fonctionnement du code
 
