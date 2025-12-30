@@ -5,47 +5,47 @@
 ## Import du package CloudsToy
 
 Pour manipuler les nuages, le TD nous suggère d'installer le package CloudsToy. On le trouve dans l'assets store : 
-![alt text](image.png)
+![alt text](unity-labs/images/ch3-td6/image.png)
 
 ## Localisation du prefab CloudsToy Mngr 
 
 On localise dans le dossier de l'asset le prefab CloudsToy Mngr, qui se trouve ici :
-![alt text](image-1.png)
+![alt text](unity-labs/images/ch3-td6/image-1.png)
 
 ## Déposer le prefab sur la scène
 
 On dépose le prefab dans la scène, on constate qu'il se trouve bien dans la hiérarchie mais il est invisible. Car il a besoin d'un terrain pour s'aligner. Nous allons donc par la suite créé un terrain : 
-![alt text](image-2.png)
+![alt text](unity-labs/images/ch3-td6/image-2.png)
 
 ## Ajout du terrain à la scène
 
 On génère un terrain et on le place au pied du prefab : 
-![alt text](image-3.png)
+![alt text](unity-labs/images/ch3-td6/image-3.png)
 
 ## Sculptage du terrain
 
 On doit sculpter le terrain et le peindre. 
 Voici la sculpture du terrain : 
-![alt text](image-5.png)
+![alt text](unity-labs/images/ch3-td6/image-5.png)
 
 ## Ajout de la lumière directionnelle
 
 On ajoute une lumière directionnelle qui pointe vers la montagne : 
 
-![alt text](image-6.png)
+![alt text](unity-labs/images/ch3-td6/image-6.png)
 
 ## Lancer les nuages
 
 Après quelques soucis, nous avons rétrograder la version de unity à la 2022, et utiliser un autre terrain prégénéré proposé par le package CloudsToy, voici le placement :
-![alt text](image-7.png)
+![alt text](unity-labs/images/ch3-td6/image-7.png)
 
 Et donc voici le résultat final : 
-![alt text](image-8.png)
+![alt text](unity-labs/images/ch3-td6/image-8.png)
 
 ## Ajout du PFC
 
 On ajoute un PFC basique avec un script de mouvement et de rotation, voici ce qu'on voit lorsqu'on est sur le terrain : 
-![alt text](image-9.png)
+![alt text](unity-labs/images/ch3-td6/image-9.png)
 
 On constate que lorsque le PFC se déplace, les nuages se génèrent automatiquement, cela augmente considérablement les performances dans un jeu, on peut imaginer.
 
@@ -54,7 +54,7 @@ Ca raisonne sous forme de chunks, qui se chargent et se décharge en fonction du
 ## Abaisser les nuages
 
 En abaissant le nuage au niveau de la partie montagneuse de notre terrain, on peut faire en sorte que le joueur puisse se déplacer à travers les nuages, rendant l'expérience plus immersive (utile pour notre jeu)
-![alt text](image-10.png)
+![alt text](unity-labs/images/ch3-td6/image-10.png)
 
 
 Note sur les paramètres à modifier : 
@@ -67,7 +67,7 @@ Maximum velocity permet de faire changer la direction et la vitesse (vitesse né
 Animation velocity permet de changer la vitesse d'animation de chaque nuage 
 
 Après avoir changé ses différents paramètres pour expérimenté, voici le résultat que l'on souhaiterait implémenter dans notre jeu au milieu du mont fuji (d'autres nuages ambiants seront là sur le ciel) : 
-![alt text](image-11.png)
+![alt text](unity-labs/images/ch3-td6/image-11.png)
 
 ## Questions
 
@@ -76,7 +76,7 @@ Après avoir changé ses différents paramètres pour expérimenté, voici le r�
 #### Expliquez comment les nuages volumétriques sont générés dans les moteurs de jeu comme Unity. Quelles sont les différences clés entre les nuages volumétriques et les techniques traditionnelles de représentation des nuages ?
 
 Un nuage volumétrique est un volume 3D rempli de particules, ou de voxels selon le type de génération. Caractétirsé par une couleur, une luminosité, des animations, un champ de génération, une forme, et une texture 2D.
-![alt text](image-12.png)
+![alt text](unity-labs/images/ch3-td6/image-12.png)
 
 Voici par exemple les textures utilisées pour la génération des nuages par CloudsToy. Ces textures permettent de créer des volumes, un nuage, qui ensuite est répliqué de façon Random pour créer pleins de nuages volumétriques, créant la dimension de profondeur et du réalisme. Pour obtenir la forme naturelle, ils utilisent du bruit procédural, comme le bruit de perlin qu'on a vu précédemment. Lors du rendu, on a aussi du ray marching qui est appliqué, en effet, on le constate grâce à notre lumière ambiante, la lumière traverse les nuages, pour donner un aspect lumineux et moelleux.
 

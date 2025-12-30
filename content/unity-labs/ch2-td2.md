@@ -74,7 +74,7 @@ Ce script, appliqué à un plan, permet de générer dynamiquement une **texture
 * `pix` : tableau de pixels stockant les couleurs
 
 ### Capture d’écran
-![alt text](CH2-TD2/image.png)
+![alt text](unity-labs/images/ch2-td2/image.png)
 
 ### Fonctionnement du code
 
@@ -97,7 +97,7 @@ Ce script, appliqué à un plan, permet de générer dynamiquement une **texture
    * Validation avec `Apply()`
 
 ### Capture d’écran
-![alt text](image2.png)
+![alt text](unity-labs/images/ch2-td2/image2.png)
 
 ---
 
@@ -132,7 +132,7 @@ Ce script, appliuqé à une sphère utilise le bruit de Perlin 2D comme un **bru
 * `xScale` : vitesse de déplacement dans le plan de Perlin
 
 ### Capture d’écran
-![alt text](image1.png)
+![alt text](unity-labs/images/ch2-td2/image1.png)
 
 ### Fonctionnement du code
 
@@ -144,7 +144,7 @@ Ce script, appliuqé à une sphère utilise le bruit de Perlin 2D comme un **bru
 
 ### Animation
 (Cliquez sur la vidéo pour la télécharger afin de la visionner)
-[![Aperçu de la vidéo](preview.png)](video.mp4)
+[![Aperçu de la vidéo](unity-labs/images/ch2-td2/preview.png)](unity-labs/images/ch2-td2/video.mp4)
 ---
 
 ## Conclusion

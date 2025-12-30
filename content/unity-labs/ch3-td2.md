@@ -12,7 +12,7 @@
 ## Mise en place de l'environnement
 
 Ce TD a été réalisé sur Unity, en utilisant le Starter Pack Universal 3D (URP). On créé le projet comme suit : 
-![alt text](image.png)
+![alt text](unity-labs/images/ch3-td2/image.png)
 
 
 ## FPC
@@ -29,7 +29,7 @@ On créé un terrain qu'on pose au pied de la capsule, et on retire le MeshColli
 
 ## Screenshot de l'environnement
 
-![alt text](image-1.png)
+![alt text](unity-labs/images/ch3-td2/image-1.png)
 
 ## Génération aléatoire avec Random.Range
 
@@ -64,15 +64,15 @@ N.B : Le MeshCollider est ajouté en fin de script pour éviter que le PFC ne to
 
 ## Screenshot de la génération
 
-![alt text](image-2.png)
+![alt text](unity-labs/images/ch3-td2/image-2.png)
 
 Ici, on constate que le terrain est plutôt bien généré, mais risque de créé des pentes infranchissables / être trop brute.
 
-![alt text](image-3.png)
+![alt text](unity-labs/images/ch3-td2/image-3.png)
 
 Ici, on a réduit le terrain, et on remarque en effet cette limitation
 
-![alt text](image-4.png)
+![alt text](unity-labs/images/ch3-td2/image-4.png)
 
 Ici, on a remit le terrain comme initialement, mais en générant des normales entre 0 et 50, et on constate en effet que c'est très vite erratique et impratiquable.
 
@@ -96,7 +96,7 @@ Ici, on utilise la composante en x qu'on multiplie par 10 pour faire varié la c
 
 ## Screenshot de la génération
 
-![alt text](image-5.png)
+![alt text](unity-labs/images/ch3-td2/image-5.png)
 
 On constate ici qu'on a des surfaces plus lisses, mais trop régulières et pas naturelles.
 
@@ -125,7 +125,7 @@ On utilise le script Perlin pour utiliser sa fonction Noise, qui génère le bru
 
 ## Screenshot de la génération
 
-![alt text](image-6.png)
+![alt text](unity-labs/images/ch3-td2/image-6.png)
 
 
 ## Conclusion
@@ -226,13 +226,13 @@ this.gameObject.AddComponent<MeshCollider>();
 Ce script reprend la base du script de base pour généré un terrain procédurale basique, mais on utilise le script Perlin et on modifie la composante y du vertex considéré à partir de ses valeurs x et y.
 Paysage plat : fréquence faible, amplitude moyenne / élevée 
 (f=1 et A=10)
-![alt text](image-7.png)
+![alt text](unity-labs/images/ch3-td2/image-7.png)
 Paysage vallonnés : fréquence moyenne, amplitude moyenne et octaves 2-4
 (f=5 et A=5)
-![alt text](image-8.png)
+![alt text](unity-labs/images/ch3-td2/image-8.png)
 Paysage montagneux : fréquence élevée, fréquence faible / moyenne et octaves 3-6
 (f=15 et A=15)
-![alt text](image-9.png)
+![alt text](unity-labs/images/ch3-td2/image-9.png)
 
 En ce qui concerne le changement d'octaves, on peut estimé à 1-2 octaves pour le paysage plat, 2-4 octaves pour un paysage montagneux et enfin 3-6 octaves pour un paysage montagneux. Jouer sur les octaves nous donnerais un paysage plus intéressant qu'en jouant seulement sur l'amplitude et la fréquence.
 
@@ -256,7 +256,7 @@ Si on considère notre jeu Omoyiari, le jeu se passe sur une plateforme centrale
 
 Les étapes seraient de définir le script de génération, dans notre cas nous utiliserions le bruit de perlin. Créer le plan et lui appliquer le script MontainTerrain. Il faudrait paramétrer cet algorithme car les montagnes seraient éloignées, donc elles doivent être en altitude assez élevée pour être visible et que cela imite le mieux un paysage montagneux (donc f=10 A=15 et O=5 par exemple). On doit généré le terrain sur un contour : 
 
-![alt text](image-10.png)
+![alt text](unity-labs/images/ch3-td2/image-10.png)
 
 Comme le montre ce schéma, il y aurait un creu, donc il faudrait le prendre en considération, en rendant soit convexe les montagnes sur le côté, ou alors en générant quatres plans différents.
 

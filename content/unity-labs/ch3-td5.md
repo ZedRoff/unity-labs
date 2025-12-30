@@ -14,34 +14,34 @@ Version de Unity : 2023
 4. On lance la scène et on fait bouger le PFC
 
 Voici le rendu : 
-![alt text](image.png)
+![alt text](unity-labs/images/ch3-td5/image.png)
 
 ## Mise en place du SkyDome
 
 On import le package Unity SkyDome depuis le dossier partagé : 
-![alt text](image-1.png)
+![alt text](unity-labs/images/ch3-td5/image-1.png)
 
 On dépose le préfab dans la scène : 
-![alt text](image-7.png)
+![alt text](unity-labs/images/ch3-td5/image-7.png)
 
 On attribue le PFC au champ Player du script Skydome script du skydome : 
-![alt text](image-3.png)
+![alt text](unity-labs/images/ch3-td5/image-3.png)
 
 On retire la directional light de base du projet car le soleil de la skydome est automatiquement généré
 On attribue une texture au skydome pour retiré le violet : 
-![alt text](image-4.png)
+![alt text](unity-labs/images/ch3-td5/image-4.png)
 
 On change le type de lumière en Directional dans le code : 
-![alt text](image-5.png)
+![alt text](unity-labs/images/ch3-td5/image-5.png)
 
 Voici le rendu lorsqu'on lance la scène : 
 
-![alt text](image-6.png)
+![alt text](unity-labs/images/ch3-td5/image-6.png)
 
 Tests avec les paramètres: 
 
 - Turbidité de 10 : 
-![alt text](image-8.png)
+![alt text](unity-labs/images/ch3-td5/image-8.png)
 
 ## Questions
 

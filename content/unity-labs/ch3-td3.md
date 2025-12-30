@@ -118,21 +118,21 @@ Pour chaque sommet du mesh :
 
 - __Vue première personne :__
 
-![alt text](image-8.png)
+![alt text](unity-labs/images/ch3-td3/image-8.png)
 
 - __Vue du dessus__
 
 > Densité de 0.3
 
-![alt text](image-3.png)
+![alt text](unity-labs/images/ch3-td3/image-3.png)
 
 > Densité de 0.5
 
-![alt text](image-4.png)
+![alt text](unity-labs/images/ch3-td3/image-4.png)
 
 > Densité de 0.7
 
-![alt text](image-5.png)
+![alt text](unity-labs/images/ch3-td3/image-5.png)
 ---
 
 # 2. Intérêt de la génération procédurale de villes et l'application du bruit de Perlin
@@ -217,7 +217,7 @@ height * 10f → on ajuste l’échelle de la hauteur pour que les bosses et cre
 
 📸 **Capture – Variation de l'altitude urbaine**
 
-![alt text](image-2.png)
+![alt text](unity-labs/images/ch3-td3/image-2.png)
 
 
 ---
@@ -329,7 +329,7 @@ Voici le résultat avec les paramètres suivants :
     - streetInterval = 4
 ```
 
-![alt text](image.png)
+![alt text](unity-labs/images/ch3-td3/image.png)
 On constate qu'il y a bien deux quartiers, séparé par une ruelle, les batiments sont espacés entre eux donnant cette impression de quartier.
 
 Autre expérimentation avec des paramètres différents : 
@@ -339,7 +339,7 @@ Autre expérimentation avec des paramètres différents :
     - buildingSpacing = 20
     - streetInterval = 5
 ```
-![alt text](image-1.png)
+![alt text](unity-labs/images/ch3-td3/image-1.png)
 On a des quartiers plus prononcés, on les distingue mieux.
 
 
