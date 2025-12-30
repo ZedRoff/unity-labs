@@ -6,6 +6,7 @@ title: "Bienvenue dans ce portfolio Unity"
 
 **Préambule** :
 Vous trouverez dans ce site : 
+```
     - Le rapport du projet Omoiyari, contenant :
         - Les avancées réalisées sur l'année 2 en Infographie II.
         - Le détail des éléments choisis depuis la feuille de route.
@@ -21,7 +22,7 @@ Vous trouverez dans ce site :
         - Des pseudos codes.
         - Des captures d'écrans de nos scènes.
         - Des explications détaillées.
-
+```
 **Contributeurs (Authorship)** : 
 - Justine, HAKIM, [CH2/TD2, CH3/TD3, CH3/TD4]
 - Aman, GHAZANFAR, [CH3/TD1, CH3/TD2, CH3/TD5, CH3/TD6]
