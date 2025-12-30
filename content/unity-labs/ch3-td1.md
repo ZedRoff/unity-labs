@@ -1,11 +1,19 @@
+---
+title: "CH3/TD1"
+description: "Utilisation de l'outil terrain pour générer le mont-fuji"
+author: "Aman GHAZANFAR"
+tags:
+  - mont-fuji
+  - outil terrain
+---
+
+
 # Chapitre 3 - TD1
 
 ## Préambule
 
 > L'objectif de ce TD est de manipuler l'outil "Terrain" de Unity. Pour ce faire, nous allons modéliser le paysage du Mont Fuji.
 
-## Sommaire
-    - []
 
 ## Etape 1
 

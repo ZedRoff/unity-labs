@@ -1,3 +1,16 @@
+---
+title: "CH3/TD2"
+description: "Génération procédurale de villes et de quartier"
+author: "Justine HAKIM"
+tags:
+  - génération procédurale
+  - villes
+  - terrain
+  - manipulation de mesh
+---
+
+
+
 # TD3 : Génération procédurale de villes
 
 ## Présentation générale

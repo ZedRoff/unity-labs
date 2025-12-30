@@ -1,3 +1,13 @@
+---
+title: "CH3/TD5"
+description: "Exploitation des SkyDomes pour rendre un ciel et un soleil"
+author: "Aman GHAZANFAR"
+tags:
+  - skydome
+  - environnement
+---
+
+
 # TD5 : SkyDome
 
 ## Préambule

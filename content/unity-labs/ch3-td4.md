@@ -1,3 +1,12 @@
+---
+title: "CH3/TD4"
+description: "Découverte du post-traitement"
+author: "Justine HAKIM"
+tags:
+  - post-traitement
+---
+
+
 # TD4 : Effets de post-traitement
 
 ## Présentation générale

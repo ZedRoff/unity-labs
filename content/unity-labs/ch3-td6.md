@@ -1,3 +1,14 @@
+---
+title: "CH3/TD6"
+description: "Implémentation de nuages volumétriques dans Unity"
+author: "Aman GHAZANFAR"
+tags:
+  - nuages volumétriques
+  - fog
+  - rayleigh
+---
+
+
 # TD 6 : Génération de nuages volumétriques
 
 ## Préambule

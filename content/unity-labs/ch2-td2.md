@@ -1,3 +1,13 @@
+---
+title: "CH2/TD2"
+description: "Utilisation du bruit de perlin pour générer des textures"
+author: "Justine HAKIM"
+tags:
+  - bruit de perlin
+  - textures
+---
+
+
 # TD 2 – Bruit de Perlin intégré à Unity
 
 ---
