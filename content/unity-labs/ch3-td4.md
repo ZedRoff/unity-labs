@@ -9,6 +9,8 @@ tags:
 
 # TD4 : Effets de post-traitement
 
+> Author : Justine HAKIM
+
 ## Présentation générale
 
 Ce projet s’inscrit dans l’étude et la mise en œuvre des effets de post-traitement (post-processing) dans les jeux vidéo, à travers le moteur Unity. Le post-traitement regroupe un ensemble de techniques appliquées après le rendu de la scène par la caméra, visant à améliorer la qualité visuelle, la lisibilité et l’immersion du joueur.

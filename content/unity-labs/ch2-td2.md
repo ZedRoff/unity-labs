@@ -10,6 +10,8 @@ tags:
 
 # TD 2 – Bruit de Perlin intégré à Unity
 
+> Author : Justine HAKIM
+
 ---
 
 ## Objectif du TD

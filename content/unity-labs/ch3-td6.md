@@ -11,6 +11,8 @@ tags:
 
 # TD 6 : Génération de nuages volumétriques
 
+> Author : Aman GHAZANFAR
+
 ## Préambule
 
 ## Import du package CloudsToy

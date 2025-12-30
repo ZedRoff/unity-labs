@@ -12,6 +12,8 @@ tags:
 
 # Chapitre 3 - TD2
 
+> Author : Aman GHAZANFAR
+
 ## Préambule
 
 > L'objectif de ce TD est de généré des terrains de façons procédurale, en considérant plusieurs modes de génération aléatoire, à savoir : génération en Random Normal, génération sinusoîdale et enfin génération avec le bruit de perlin. Nous allons essayer ces méthodes de génération et discuter des limitations associées à ces dernières.

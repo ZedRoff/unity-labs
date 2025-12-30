@@ -10,6 +10,8 @@ tags:
 
 # Chapitre 3 - TD1
 
+> Author : Aman GHAZANFAR
+
 ## Préambule
 
 > L'objectif de ce TD est de manipuler l'outil "Terrain" de Unity. Pour ce faire, nous allons modéliser le paysage du Mont Fuji.

@@ -13,6 +13,8 @@ tags:
 
 # TD3 : Génération procédurale de villes
 
+> Author : Justine HAKIM
+
 ## Présentation générale
 
 Ce projet explore la **génération procédurale de villes dans les jeux vidéo**, en utilisant le **bruit de Perlin** afin de créer :

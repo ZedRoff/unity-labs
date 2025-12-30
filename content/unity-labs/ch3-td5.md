@@ -10,6 +10,8 @@ tags:
 
 # TD5 : SkyDome
 
+> Author : Aman GHAZANFAR
+
 ## Préambule
 
 L'objectif de ce TD est de créer un skydome sur Unity. Pour ce faire, nous allons utilisé le package SkyDome et le Character Controller.
