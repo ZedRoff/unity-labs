@@ -55,10 +55,47 @@ On a placé l'image sur le plan intérieur, en la mettant en tant que Sprite sur
 Voici notre représentation approximative du mont fuji : 
 ![alt text](unity-labs/images/ch3-td1/image-7.png)
 
-## Etapes 7 / 8 / 9 / 11 / 12 / 15 
+## Etape 7/8
+
+Texturation du Mont Fuji :
+![alt text](unity-labs/images/ch3-td1/image-13.png)
+
+## Etapes 9 / 11
 
 Voici le rendu final
-![alt text](unity-labs/images/ch3-td1/image-8.png)
+![alt text](unity-labs/images/ch3-td1/image-22.png)
+
+## Etape 12
+
+On ajoute des arbres : 
+
+- Voici les arbres choisis : 
+
+![alt text](unity-labs/images/ch3-td1/image-14.png)
+
+
+![alt text](unity-labs/images/ch3-td1/image-20.png)
+
+## Etape 15
+
+On a choisit l'option de créer un shader
+
+Tout d'abord, on créer un plan : 
+
+
+On utilise un mesh a plusieurs subdivisions.
+
+On met opaque -> transparent dans les paramètres du Shader Graph
+
+Ensuite, en suivant une vidéo, et en l'adaptant pour qu'elle fonctionne avec une formule d'une sinusoide : Asin(wt + phi), cela donne : 
+
+![alt text](unity-labs/images/ch3-td1/image-18.png)
+
+Voici ce que cela donne : 
+
+![alt text](unity-labs/images/ch3-td1/image-19.png)
+
+Le shader a pour but d'appliquer de la texture et de créer un wave effect.
 
 
 ## Conclusion
