@@ -1,18 +1,11 @@
-# Quartz v4
+# Unity-Labs
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Dans ce projet, vous trouverez notre rapport de projet et de TDs sur l'année 2 en Infographie, unité encadré par M. Badr TAJINI.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+## Contributeurs
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+- Justine HAKIM
+- Aman GHAZANFAR
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-## Sponsors
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
