@@ -32,8 +32,7 @@ Vous trouverez dans ce site :
 Cette année, notre réflexion s'est portée sur la qualité plutôt que la quantité, et nous en avons profiter pour implémenter les techniques vues au sein des TDs, pendant les cours, et au travers de vidéos que nous avons pu trouver sur Internet afin de rendre l'expérience plus immersive, et implémenter deux nouvelles capsules parmis les capsules déjà présentes.
 
 ### [Le rapport](omoiyari-project/rapport)
-### [Le projet](omoiyari-project/projet)
-### [La vidéo](omoiyari-project/video)
+### [Les vidéos](omoiyari-project/video)
 
 ## Travaux Dirigés
 

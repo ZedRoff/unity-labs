@@ -15,6 +15,38 @@
 
 **École :** ESIEE
 
+## Table des matières
+
+- [0. Préambule](#0-préambule)
+- [1. Introduction et objectif du projet](#1-introduction-et-objectif-du-projet)
+- [2. Organisation du travail et répartition des tâches](#2-organisation-du-travail-et-répartition-des-tâches)
+  - [2.1 Méthodologie de travail](#21-méthodologie-de-travail)
+  - [2.2 TDs réalisés](#22-tds-réalisés)
+- [3. Intégration des TDs dans le jeu](#3-intégration-des-tds-dans-le-jeu)
+  - [3.1 Bruit de Perlin](#31-bruit-de-perlin)
+  - [3.2 Mont Fuji](#32-mont-fuji)
+  - [3.3 Génération de terrains procéduraux](#33-génération-de-terrains-procéduraux)
+  - [3.4 Post-processing](#34-post-processing)
+  - [3.5 Nuages volumétriques et Ray Marching](#35-nuages-volumétriques-et-ray-marching)
+- [4. Éléments naturels sélectionnés](#4-éléments-naturels-sélectionnés)
+- [5. Assets externes](#5-assets-externes)
+- [6. Critères techniques Unity3D](#6-critères-techniques-unity3d)
+  - [6.a Acquisition et préparation des données](#6a-acquisition-et-préparation-des-données)
+  - [6.b Mise en œuvre du projet dans Unity3D](#6b-mise-en-œuvre-du-projet-dans-unity3d)
+  - [6.c Qualité du rendu](#6c-qualité-du-rendu)
+  - [6.d Performances et optimisation](#6d-performances-et-optimisation)
+- [7. Nouvelles salles et nouveaux handicaps](#7-nouvelles-salles-et-nouveaux-handicaps)
+  - [7.a Handicap moteur – Mobilité réduite](#7a-handicap-moteur--mobilité-réduite)
+  - [7.b Autisme](#7b-autisme)
+  - [7.c Nouveau scripting](#7c-nouveau-scripting)
+- [8. Reprise des salles existantes](#8-reprise-des-salles-existantes)
+- [9. Conception artistique et gameplay](#9-conception-artistique-et-gameplay)
+  - [9.1 Direction artistique](#91-direction-artistique)
+  - [9.2 Interactivité et expérience utilisateur](#92-interactivité-et-expérience-utilisateur)
+- [10. Présentation et livrables](#10-présentation-et-livrables)
+  - [10.1 Vidéo](#101-vidéo)
+- [11. Conclusion et prise de recul](#11-conclusion-et-prise-de-recul)
+
 ## 0. Préambule
 
 ---
