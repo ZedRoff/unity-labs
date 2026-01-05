@@ -15,6 +15,10 @@
 
 **École :** ESIEE
 
+## Note importante
+
+La codebase de ce projet, les vidéos bande d'annonce et démonstrative ainsi que le jeu executable sont présentes au sein de ce drive : [Lien](https://drive.google.com/drive/folders/1INX6mQLS4DNxlDNPDUrWWWuTPdMyy8Z0?usp=drive_link)
+
 ## Table des matières
 
 - [0. Préambule](#0-préambule)
